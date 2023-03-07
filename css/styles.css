@@ -1,0 +1,62 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    color: #FF7E67;
+}
+
+header h2 {
+    color: #A2D5F2
+}
+
+footer {
+    background-image: linear-gradient(#A2D5F2, #FAFAFA);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #07689F, #07689F, #07689F);
+    color: #FAFAFA;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+#outputSection {
+    border: 3px solid rgb(140, 140, 140);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+/*----------BORDERS------------
+
+.col, div[class^="col-"], label[class^="col-"] {
+    border: 1px solid rgb(160, 159, 159);
+  } 
+  
+  .row {
+    border: 3px solid blue;
+  }
+  
+  .container, .container-fluid {
+    border: 3px solid green;
+  }
+  
+  .media {
+    border: 3px solid yellow;
+  }  
+  
+  .card {
+    border: 3px solid purple;
+  }
+  */
+
