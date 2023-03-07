@@ -76,10 +76,10 @@ const criteria6 = {
     "4": "The student does not address the implictions of their arguments.",
     "5": "The student does not address the implictions of their arguments.",
     "6": "The student does not address the implictions of their arguments.",
-    "7": "The student does not address the implictions of their arguments.",
+    "7": "The student attempts to identify the implications.",
     "8": "The student attempts to identify the implications.",
     "9": "The student does a good job identifying the implications of the arguments are considered",
-    "10": "",
+    "10": "The student does a good job identifying the implications of the arguments are considered",
 };
 
 function showText1() {
@@ -117,3 +117,18 @@ function showText6() {
     const outputText = criteria6[userInput] || "Please enter a number between 1 and 10!";
     document.getElementById("output6").innerHTML = outputText;
 }
+
+function resetButton() {
+    document.getElementById("userInput1").value = "";
+    document.getElementById("userInput2").value = "";
+    document.getElementById("userInput3").value = "";
+    document.getElementById("userInput4").value = "";
+    document.getElementById("userInput5").value = "";
+    document.getElementById("userInput6").value = "";
+    document.getElementById("output1").innerHTML = "";
+    document.getElementById("output2").innerHTML = "";
+    document.getElementById("output3").innerHTML = "";
+    document.getElementById("output4").innerHTML = "";
+    document.getElementById("output5").innerHTML = "";
+    document.getElementById("output6").innerHTML = "";
+  }

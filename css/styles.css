@@ -15,7 +15,7 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(#A2D5F2, #FAFAFA);
+    background-image: linear-gradient(#A2D5F2, #A2D5F2);
     padding: 20px 0;
 }
 
@@ -35,9 +35,15 @@ footer {
     border: 3px solid #FF7E67;
     border-radius: 6px;
     padding: 6px;
+    background-color: #FAFAFA;
 }
 
-/*----------BORDERS------------
+#resetButton1 {
+    background-color: #FF7E67;
+    border: #FF7E67;
+}
+
+/*----------BORDERS------------ 
 
 .col, div[class^="col-"], label[class^="col-"] {
     border: 1px solid rgb(160, 159, 159);
@@ -58,5 +64,5 @@ footer {
   .card {
     border: 3px solid purple;
   }
-  */
+ */
 
