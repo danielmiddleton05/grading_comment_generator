@@ -32,9 +32,9 @@ footer {
 }
 
 #outputSection {
-    border: 3px solid rgb(140, 140, 140);
-    border-radius: 4px;
-    padding: 2px;
+    border: 3px solid #FF7E67;
+    border-radius: 6px;
+    padding: 6px;
 }
 
 /*----------BORDERS------------
