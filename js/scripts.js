@@ -152,12 +152,14 @@ function calculateAverage() {
   }
 
 function resetButton() {
+    document.getElementById("userInput").value = "";
     document.getElementById("userInput1").value = "";
     document.getElementById("userInput2").value = "";
     document.getElementById("userInput3").value = "";
     document.getElementById("userInput4").value = "";
     document.getElementById("userInput5").value = "";
     document.getElementById("userInput6").value = "";
+    document.getElementById("output").innerHTML = "";
     document.getElementById("output1").innerHTML = "";
     document.getElementById("output2").innerHTML = "";
     document.getElementById("output3").innerHTML = "";
