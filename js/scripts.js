@@ -15,14 +15,14 @@ const criteria = {
 const criteria1 = {
     1: "the essay has a discussion that is weakly connected to the title and",
     2: "the essay has a discussion that is weakly connected to the title and",
-    3: "the essay has a discussion is connected to the title and",
-    4: "the essay has a discussion is connected to the title and",
-    5: "the essay has a discussion is mostly focused on the title and",
-    6: "the essay has a discussion is mostly focused on the title and",
-    7: "the essay has a discussion is focused on the title and",
-    8: "the essay has a discussion is focused on the title and",
-    9: "the essay has a discussion has a sustained focus on the title and",
-    10: "the essay has a discussion has a sustained focus on the title and",
+    3: "the essay has a discussion that is connected to the title and",
+    4: "the essay has a discussion that is connected to the title and",
+    5: "the essay has a discussion that is mostly focused on the title and",
+    6: "the essay has a discussion that is mostly focused on the title and",
+    7: "the essay has a discussion that is focused on the title and",
+    8: "the essay has a discussion that is focused on the title and",
+    9: "the essay has a discussion that has a sustained focus on the title and",
+    10: "the essay has a discussion that has a sustained focus on the title and",
 };
 
 //LINKS TO AOKS
@@ -31,32 +31,32 @@ const criteria2 = {
     2: "links to AOKs but is not relevant.",
     3: "makes superficial or limited links to the AOKs.",
     4: "makes superficial or limited links to the AOKs.",
-    5: "developed with some links to the AOKs.",
-    6: "developed with some links to the AOKs.",
-    7: "mostly linked effectively to the AOKs.",
-    8: "mostly linked effectively to the AOKs.",
-    9: "linked effectively to the AOKs.",
-    10: "linked effectively to the AOKs.",
+    5: "is developed with some links to the AOKs.",
+    6: "is developed with some links to the AOKs.",
+    7: "is mostly linked to the AOKs.",
+    8: "is mostly linked to the AOKs.",
+    9: "is linked effectively to the AOKs.",
+    10: "is linked effectively to the AOKs.",
 };
 
 //SUPPORTED ARGUMENTS
 const criteria3 = {
-    1: "Mostly descriptive with little arguments,",
-    2: "Mostly descriptive with little arguments,",
-    3: "Limited arguments are offered,",
-    4: "Limited arguments are offered,",
-    5: "General arguments are offered,",
-    6: "General arguments are offered,",
+    1: "The student is mostly descriptive with little arguments,",
+    2: "The student is mostly descriptive with little arguments,",
+    3: "Limited arguments are offered by the student,",
+    4: "Limited arguments are offered by the student,",
+    5: "General arguments are offered by the student,",
+    6: "General arguments are offered by the student,",
     7: "Arguments are clear, coherent,",
     8: "Arguments are clear, coherent,",
-    9: "Arguments are clear, coherent, and convincing,",
-    10: "Arguments are clear, coherent, and convincing,",
+    9: "Arguments that are offered are clear, coherent, and convincing,",
+    10: "Arguments that are offered are clear, coherent, and convincing,",
 };
 
 //EXAMPLES
 const criteria4 = {
-    1: "and the examples (such as ) are too decriptive and ineffective.",
-    2: "and the examples (such as ) are too decriptive and ineffective.",
+    1: "and the examples (such as ) are ineffective.",
+    2: "and the examples (such as ) are ineffective.",
     3: "and the examples (such as ) are not effective in supporting the claims.",
     4: "and the examples (such as ) are not effective in supporting the claims.",
     5: "and are mostly supported by examples (such as ).",
@@ -69,14 +69,14 @@ const criteria4 = {
 
 //EVALUATION OF PERSECTIVES
 const criteria5 = {
-    1: "There is no awareness of differing viewpoints.",
-    2: "There is no awareness of differing viewpoints.",
+    1: "There is no awareness of differing viewpoints and the only offers vague descriptions of examples.",
+    2: "There is no awareness of differing viewpoints and the only offers vague descriptions of examples..",
     3: "There is limited awarenss of differing viewpoints.",
     4: "There is limited awarenss of differing viewpoints.",
-    5: "The student attempts to show awareness of different viewpoints.",
-    6: "The student attempts to show awareness of different viewpoints.",
-    7: "The student does well in presenting an awareness and some evaluation of differing viewpoints.",
-    8: "The student does well in presenting an awareness and some evaluation of differing viewpoints.",
+    5: "The student attempts to show some awareness of different viewpoints, though lacks in certain areas.",
+    6: "The student attempts to show some awareness of different viewpoints, though lacks in certain areas.",
+    7: "The student does well in presenting an awareness and shows some evaluation of differing viewpoints.",
+    8: "The student does well in presenting an awareness and shows some evaluation of differing viewpoints.",
     9: "The student does excellent in presenting a clear awareness and evaluation of differing viewpoints.",
     10: "The student does excellent in presenting a clear awareness and evaluation of differing viewpoints.",
 };
