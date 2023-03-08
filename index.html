@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essay Feedback</title>
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -38,14 +36,9 @@
                     <span id="output4"></span>
                     <span id="output5"></span>
                     <span id="output6"></span>
-                    <span id="averageOutput"></span>
                 </p>
             </div>
-            <div class="col-md-2 align-self-center text-right">
-                <button id="calAvg" type="button" class="btn btn-secondary btn-lg"
-                    onclick="calculateAverage()">Score</button>
-            </div>
-            <div class="col-md-2 align-self-center text-right">
+            <div class="col align-self-center text-right">
                 <button id="resetButton1" type="button" class="btn btn-secondary btn-lg"
                     onclick="resetButton()">Reset</button>
             </div>
@@ -272,7 +265,8 @@
         <div class="row align-items-center">
             <div class="col-12 align-self-center">
                 <h2>How would you rate the following essay?</h2>
-                <p>First, hit the 'Score' button at the top to see the raw score.</p>
+                <p>First, hit the 'Score' button to see the raw score.</p>
+                <p id="averageOutput"></p>
             </div>
         </div>
         <div class="row align-items-center">
@@ -293,7 +287,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col mb-4">
+            <div class="col-md-2 align-self-center">
+                <button id="calAvg" type="button" class="btn btn-secondary btn-lg"
+                    onclick="calculateAverage()">Score</button>
+            </div>
+            <div class="col mb-4 align-self-center">
                 <input type="number" id="userInput" min="1" max="10">
                 <button button type="button" class="btn btn-secondary" onclick="showText()">Submit</button>
             </div>
