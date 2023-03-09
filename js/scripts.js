@@ -83,12 +83,12 @@ const criteria5 = {
 
 //Implications
 const criteria6 = {
-    1: "The student does not address the implictions of their arguments.",
-    2: "The student does not address the implictions of their arguments.",
-    3: "The student does not address the implictions of their arguments.",
-    4: "The student does not address the implictions of their arguments.",
-    5: "The student does not address the implictions of their arguments.",
-    6: "The student does not address the implictions of their arguments.",
+    1: "The student does not address the implications of their arguments.",
+    2: "The student does not address the implications of their arguments.",
+    3: "The student does not address the implications of their arguments.",
+    4: "The student does not address the implications of their arguments.",
+    5: "The student does not address the implications of their arguments.",
+    6: "The student does not address the implications of their arguments.",
     7: "The student attempts to identify the implications.",
     8: "The student attempts to identify the implications.",
     9: "The student does a good job identifying the implications of the arguments are considered",
