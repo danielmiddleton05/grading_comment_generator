@@ -1,4 +1,4 @@
-// THIS SECTION IS FOR THE ESSAY FUNCTIONS
+// THIS SECTION IS FOR THE ESSAY FUNCTIONS -----------------------------------------------------------------
 
 const criteria = {
     1: "This is an example of rudimentary work,",
@@ -171,4 +171,175 @@ function resetButton() {
     document.getElementById("averageOutput").innerHTML = "";
   }
 
-// THIS SECTION IS FOR THE EXHIBIT FUNCTIONS
+// THIS SECTION IS FOR THE EXHIBIT FUNCTIONS -----------------------------------------------------------------
+
+const exhibitCriteria = {
+    1: "Bob1",
+    2: "Bob2",
+    3: "Bob3",
+    4: "Bob4",
+    5: "Bob5",
+    6: "Bob6",
+    7: "Bob7",
+    8: "Bob8",
+    9: "Bob9",
+    10: "Bob10",
+};
+
+// TITLE
+const exhibitCriteria1 = {
+    1: "1Bob1",
+    2: "1Bob2",
+    3: "1Bob3",
+    4: "1Bob4",
+    5: "1Bob5",
+    6: "1Bob6",
+    7: "1Bob7",
+    8: "1Bob8",
+    9: "1Bob9",
+    10: "1Bob10",
+};
+
+//LINKS TO AOKS
+const exhibitCriteria2 = {
+    1: "2Bob1",
+    2: "2Bob2",
+    3: "2Bob3",
+    4: "2Bob4",
+    5: "2Bob5",
+    6: "2Bob6",
+    7: "2Bob7",
+    8: "2Bob8",
+    9: "2Bob9",
+    10: "2Bob10",
+};
+
+//SUPPORTED ARGUMENTS
+const exhibitCriteria3 = {
+    1: "3Bob1",
+    2: "3Bob2",
+    3: "3Bob3",
+    4: "3Bob4",
+    5: "3Bob5",
+    6: "3Bob6",
+    7: "3Bob7",
+    8: "3Bob8",
+    9: "3Bob9",
+    10: "3Bob10",
+};
+
+//EXAMPLES
+const exhibitCriteria4 = {
+    1: "4Bob1",
+    2: "4Bob2",
+    3: "4Bob3",
+    4: "4Bob4",
+    5: "4Bob5",
+    6: "4Bob6",
+    7: "4Bob7",
+    8: "4Bob8",
+    9: "4Bob9",
+    10: "4Bob10",
+};
+
+//EVALUATION OF PERSECTIVES
+const exhibitCriteria5 = {
+    1: "5Bob1",
+    2: "5Bob2",
+    3: "5Bob3",
+    4: "5Bob4",
+    5: "5Bob5",
+    6: "5Bob6",
+    7: "5Bob7",
+    8: "5Bob8",
+    9: "5Bob9",
+    10: "5Bob10",
+};
+
+//Implications
+const exhibitCriteria6 = {
+    1: "6Bob1",
+    2: "6Bob2",
+    3: "6Bob3",
+    4: "6Bob4",
+    5: "6Bob5",
+    6: "6Bob6",
+    7: "6Bob7",
+    8: "6Bob8",
+    9: "6Bob9",
+    10: "6Bob10",
+};
+
+function showExhibitText() {
+    const userExhibitInput = document.getElementById("userExhibitInput").value;
+    const outputExhibitText = exhibitCriteria[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit").innerHTML = outputExhibitText;
+}
+
+function showExhibitText1() {
+    const userExhibitInput = document.getElementById("userExhibitInput1").value;
+    const outputExhibitText = exhibitCriteria1[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit1").innerHTML = outputExhibitText;
+}
+
+function showExhibitText2() {
+    const userExhibitInput = document.getElementById("userExhibitInput2").value;
+    const outputExhibitText = exhibitCriteria2[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit2").innerHTML = outputExhibitText;
+}
+
+function showExhibitText3() {
+    const userExhibitInput = document.getElementById("userExhibitInput3").value;
+    const outputExhibitText = exhibitCriteria3[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit3").innerHTML = outputExhibitText;
+}
+
+function showExhibitText4() {
+    const userExhibitInput = document.getElementById("userExhibitInput4").value;
+    const outputExhibitText = exhibitCriteria4[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit4").innerHTML = outputExhibitText;
+}
+
+function showExhibitText5() {
+    const userExhibitInput = document.getElementById("userExhibitInput5").value;
+    const outputExhibitText = exhibitCriteria5[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit5").innerHTML = outputExhibitText;
+}
+
+function showExhibitText6() {
+    const userExhibitInput = document.getElementById("userExhibitInput6").value;
+    const outputExhibitText = exhibitCriteria6[userExhibitInput] || "Please enter a number between 1 and 10!";
+    document.getElementById("outputExhibit6").innerHTML = outputExhibitText;
+}
+
+function calculateExhibitAverage() {
+    const userExhibitInput1 = document.getElementById("userExhibitInput1").value;
+    const userExhibitInput2 = document.getElementById("userExhibitInput2").value;
+    const userExhibitInput3 = document.getElementById("userExhibitInput3").value;
+    const userExhibitInput4 = document.getElementById("userExhibitInput4").value;
+    const userExhibitInput5 = document.getElementById("userExhibitInput5").value;
+    const userExhibitInput6 = document.getElementById("userExhibitInput6").value;
+  
+    const totalExhibitScore = parseInt(userExhibitInput1) + parseInt(userExhibitInput2) + parseInt(userExhibitInput3) + parseInt(userExhibitInput4) + parseInt(userExhibitInput5) + parseInt(userExhibitInput6);
+    const averageExhibitScore = Math.floor(totalExhibitScore / 6);
+  
+    document.getElementById("averageExhibitOutput").innerHTML = `Based on the feedback, this exhibit earned a ${averageExhibitScore}.`;
+  }
+
+function resetExhibitButton() {
+    document.getElementById("userExhibitInput").value = "";
+    document.getElementById("userExhibitInput1").value = "";
+    document.getElementById("userExhibitInput2").value = "";
+    document.getElementById("userExhibitInput3").value = "";
+    document.getElementById("userExhibitInput4").value = "";
+    document.getElementById("userExhibitInput5").value = "";
+    document.getElementById("userExhibitInput6").value = "";
+    document.getElementById("outputExhibit").innerHTML = "";
+    document.getElementById("outputExhibit1").innerHTML = "";
+    document.getElementById("outputExhibit2").innerHTML = "";
+    document.getElementById("outputExhibit3").innerHTML = "";
+    document.getElementById("outputExhibit4").innerHTML = "";
+    document.getElementById("outputExhibit5").innerHTML = "";
+    document.getElementById("outputExhibit6").innerHTML = "";
+    document.getElementById("averageExhibitOutput").innerHTML = "";
+  }
