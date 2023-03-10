@@ -1,3 +1,5 @@
+// THIS SECTION IS FOR THE ESSAY FUNCTIONS
+
 const criteria = {
     1: "This is an example of rudimentary work,",
     2: "This is an example of rudimentary work,",
@@ -168,3 +170,5 @@ function resetButton() {
     document.getElementById("output6").innerHTML = "";
     document.getElementById("averageOutput").innerHTML = "";
   }
+
+// THIS SECTION IS FOR THE EXHIBIT FUNCTIONS
