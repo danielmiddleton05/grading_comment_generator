@@ -1,5 +1,8 @@
 body {
     font-family: "Open Sans", sans-serif;
+    position: relative;
+    padding-bottom: 160px;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -21,6 +24,9 @@ header h2 {
 footer {
     background-image: linear-gradient(#A2D5F2, #A2D5F2);
     padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .jumbotron {
