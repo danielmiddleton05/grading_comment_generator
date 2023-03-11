@@ -1,5 +1,6 @@
 // THIS SECTION IS FOR THE ESSAY FUNCTIONS -----------------------------------------------------------------
 
+
 const criteria = {
     1: "This is an example of rudimentary work,",
     2: "This is an example of rudimentary work,",
@@ -171,103 +172,77 @@ function resetButton() {
     document.getElementById("averageOutput").innerHTML = "";
   }
 
+
 // THIS SECTION IS FOR THE EXHIBIT FUNCTIONS -----------------------------------------------------------------
 
+
 const exhibitCriteria = {
-    1: "Bob1",
-    2: "Bob2",
-    3: "Bob3",
-    4: "Bob4",
-    5: "Bob5",
-    6: "Bob6",
-    7: "Bob7",
-    8: "Bob8",
-    9: "Bob9",
-    10: "Bob10",
+    1: "The exhibit does a rudimentary job at showing how TOK manifests in the world around us.",
+    2: "The exhibit does a rudimentary job at showing how TOK manifests in the world around us.",
+    3: "The exhibit does a basic job at showing how TOK manifests in the world around us.",
+    4: "The exhibit does a basic job at showing how TOK manifests in the world around us.",
+    5: "The exhibit does a satisfactory job at showing how TOK manifests in the world around us.",
+    6: "The exhibit does a satisfactory job at showing how TOK manifests in the world around us.",
+    7: "The exhibit does a good job at showing how TOK manifests in the world around us.",
+    8: "The exhibit does a good job at showing how TOK manifests in the world around us.",
+    9: "The exhibit does an excellent job at showing how TOK manifests in the world around us.",
+    10: "The exhibit does an excellent job at showing how TOK manifests in the world around us.",
 };
 
-// TITLE
+// OBJECTS AND RLS
 const exhibitCriteria1 = {
-    1: "1Bob1",
-    2: "1Bob2",
-    3: "1Bob3",
-    4: "1Bob4",
-    5: "1Bob5",
-    6: "1Bob6",
-    7: "1Bob7",
-    8: "1Bob8",
-    9: "1Bob9",
-    10: "1Bob10",
+    1: "The student presents three objects, but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
+    2: "The student presents three objects, but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
+    3: "The student identifies three objects (), although the real-world contexts of the objects are implied rather than explicitly stated.",
+    4: "The student identifies three objects (), although the real-world contexts of the objects are implied rather than explicitly stated.",
+    5: "The student identifies three objects (), although the real-world context of these objects are vaguely and imprecisely stated.",
+    6: "The student identifies three objects (), although the real-world context of these objects are vaguely and imprecisely stated.",
+    7: "The student identified three objects () and their real-world context.",
+    8: "The student identified three objects () and their real-world context.",
+    9: "The student clearly identifies three objects () and their specific real-world context.",
+    10: "The student clearly identifies three objects () and their specific real-world context.",
 };
 
-//LINKS TO AOKS
+//LINKS BETWEEN OBJECTS AND PROMPT
 const exhibitCriteria2 = {
-    1: "2Bob1",
-    2: "2Bob2",
-    3: "2Bob3",
-    4: "2Bob4",
-    5: "2Bob5",
-    6: "2Bob6",
-    7: "2Bob7",
-    8: "2Bob8",
-    9: "2Bob9",
-    10: "2Bob10",
+    1: "Links between the objects and the selected IA prompt are made, but these are minimal and tenuous; additionally, it is not clear what the student is trying to convey.",
+    2: "Links between the objects and the selected IA prompt are made, but these are minimal and tenuous; additionally, it is not clear what the student is trying to convey.",
+    3: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused.",
+    4: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused.",
+    5: "There is some explanation of the links between the three objects and the selected IA prompt.",
+    6: "There is some explanation of the links between the three objects and the selected IA prompt.",
+    7: "Links between each of the three objects and the selected IA prompt are explained, although this explanation may lack precision and clarity in parts (such as).",
+    8: "Links between each of the three objects and the selected IA prompt are explained, although this explanation may lack precision and clarity in parts (such as).",
+    9: "Links between each of the three objects and the selected IA prompt are clearly made and well-explained.",
+    10: "Links between each of the three objects and the selected IA prompt are clearly made and well-explained.",
 };
 
-//SUPPORTED ARGUMENTS
+//JUSTIFICATION FOR INCLUSION
 const exhibitCriteria3 = {
-    1: "3Bob1",
-    2: "3Bob2",
-    3: "3Bob3",
-    4: "3Bob4",
-    5: "3Bob5",
-    6: "3Bob6",
-    7: "3Bob7",
-    8: "3Bob8",
-    9: "3Bob9",
-    10: "3Bob10",
+    1: "The student offers very little justification offered for the inclusion of each object in the exhibition.",
+    2: "The student offers very little justification offered for the inclusion of each object in the exhibition.",
+    3: "The student offers superficial justification for the inclusion of each object in the exhibition.",
+    4: "The student offers superficial justification for the inclusion of each object in the exhibition.",
+    5: "The student offers some justification for the inclusion of each object in the exhibition.",
+    6: "The student offers some justification for the inclusion of each object in the exhibition.",
+    7: "The student offers justification for the contribution that each individual object makes to the exhibition.",
+    8: "The student offers justification for the contribution that each individual object makes to the exhibition.",
+    9: "The student offers strong justification of a particular contribution that each individual object makes to the exhibition.",
+    10: "The student offers strong justification of a particular contribution that each individual object makes to the exhibition.",
 };
 
-//EXAMPLES
+//EVIDENCE
 const exhibitCriteria4 = {
-    1: "4Bob1",
-    2: "4Bob2",
-    3: "4Bob3",
-    4: "4Bob4",
-    5: "4Bob5",
-    6: "4Bob6",
-    7: "4Bob7",
-    8: "4Bob8",
-    9: "4Bob9",
-    10: "4Bob10",
-};
-
-//EVALUATION OF PERSECTIVES
-const exhibitCriteria5 = {
-    1: "5Bob1",
-    2: "5Bob2",
-    3: "5Bob3",
-    4: "5Bob4",
-    5: "5Bob5",
-    6: "5Bob6",
-    7: "5Bob7",
-    8: "5Bob8",
-    9: "5Bob9",
-    10: "5Bob10",
-};
-
-//Implications
-const exhibitCriteria6 = {
-    1: "6Bob1",
-    2: "6Bob2",
-    3: "6Bob3",
-    4: "6Bob4",
-    5: "6Bob5",
-    6: "6Bob6",
-    7: "6Bob7",
-    8: "6Bob8",
-    9: "6Bob9",
-    10: "6Bob10",
+    1: "The commentary on the object is highly descriptive and consists only of unsupported assertions. Overall, the exhibition is",
+    2: "The commentary on the object is highly descriptive and consists only of unsupported assertions. Overall, the exhibition is",
+    3: "Reasons for the inclusion of the objects are offered, but these are not supported by appropriate evidence and lack of relevance to the selected IA prompt; additionally, there is repetition across the justifications of the different objects. Overall, the exhibition is",
+    4: "Reasons for the inclusion of the objects are offered, but these are not supported by appropriate evidence and lack of relevance to the selected IA prompt; additionally, there is repetition across the justifications of the different objects. Overall, the exhibition is",
+    5: "Some of the sutdnet's points are supported by evidence and reference to the selected IA prompt. Overall, the exhibition is",
+    6: "Some of the student's points are supported by evidence and reference to the selected IA prompt. Overall, the exhibition is",
+    7: "Many of the studnet's points are supported by appropriate evidence and references to the selected IA prompt. Overall, the exhibition is",
+    8: "Many of the student's points are supported by appropriate evidence and references to the selected IA prompt. Overall, the exhibition is",
+    9: "All of the student's points are well-supported by appropriate evidence and explicit reference to all selected IA prompts. Overall, the exhibition is",
+    10: "All of the student's points are well-supported by appropriate evidence and explicit reference to all selected IA prompts. Overall, the exhibition is",
 };
 
 function showExhibitText() {
