@@ -300,30 +300,16 @@ function showExhibitText4() {
     document.getElementById("outputExhibit4").innerHTML = outputExhibitText;
 }
 
-function showExhibitText5() {
-    const userExhibitInput = document.getElementById("userExhibitInput5").value;
-    const outputExhibitText = exhibitCriteria5[userExhibitInput] || "Please enter a number between 1 and 10!";
-    document.getElementById("outputExhibit5").innerHTML = outputExhibitText;
-}
-
-function showExhibitText6() {
-    const userExhibitInput = document.getElementById("userExhibitInput6").value;
-    const outputExhibitText = exhibitCriteria6[userExhibitInput] || "Please enter a number between 1 and 10!";
-    document.getElementById("outputExhibit6").innerHTML = outputExhibitText;
-}
-
 function calculateExhibitAverage() {
     const userExhibitInput1 = document.getElementById("userExhibitInput1").value;
     const userExhibitInput2 = document.getElementById("userExhibitInput2").value;
     const userExhibitInput3 = document.getElementById("userExhibitInput3").value;
     const userExhibitInput4 = document.getElementById("userExhibitInput4").value;
-    const userExhibitInput5 = document.getElementById("userExhibitInput5").value;
-    const userExhibitInput6 = document.getElementById("userExhibitInput6").value;
   
-    const totalExhibitScore = parseInt(userExhibitInput1) + parseInt(userExhibitInput2) + parseInt(userExhibitInput3) + parseInt(userExhibitInput4) + parseInt(userExhibitInput5) + parseInt(userExhibitInput6);
-    const averageExhibitScore = Math.floor(totalExhibitScore / 6);
+    const totalExhibitScore = parseInt(userExhibitInput1) + parseInt(userExhibitInput2) + parseInt(userExhibitInput3) + parseInt(userExhibitInput4);
+    const averageExhibitScore = Math.floor(totalExhibitScore / 4);
   
-    document.getElementById("averageExhibitOutput").innerHTML = `Based on the feedback, this exhibit earned a ${averageExhibitScore}.`;
+    document.getElementById("averageExhibitOutput").innerHTML = `Based on the feedback, this exhibit should earned a ${averageExhibitScore}.`;
   }
 
 function resetExhibitButton() {
@@ -332,14 +318,10 @@ function resetExhibitButton() {
     document.getElementById("userExhibitInput2").value = "";
     document.getElementById("userExhibitInput3").value = "";
     document.getElementById("userExhibitInput4").value = "";
-    document.getElementById("userExhibitInput5").value = "";
-    document.getElementById("userExhibitInput6").value = "";
     document.getElementById("outputExhibit").innerHTML = "";
     document.getElementById("outputExhibit1").innerHTML = "";
     document.getElementById("outputExhibit2").innerHTML = "";
     document.getElementById("outputExhibit3").innerHTML = "";
     document.getElementById("outputExhibit4").innerHTML = "";
-    document.getElementById("outputExhibit5").innerHTML = "";
-    document.getElementById("outputExhibit6").innerHTML = "";
     document.getElementById("averageExhibitOutput").innerHTML = "";
   }
