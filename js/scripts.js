@@ -191,8 +191,8 @@ const exhibitCriteria = {
 
 // OBJECTS AND RLS
 const exhibitCriteria1 = {
-    1: "The student presents three objects, but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
-    2: "The student presents three objects, but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
+    1: "The student presents three objects (), but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
+    2: "The student presents three objects (), but the real-world context of these objects are not stated, and the images presented (such as) may be highly generic images of types of objects rather than a specific real-world object.",
     3: "The student identifies three objects (), although the real-world contexts of the objects are implied rather than explicitly stated.",
     4: "The student identifies three objects (), although the real-world contexts of the objects are implied rather than explicitly stated.",
     5: "The student identifies three objects (), although the real-world context of these objects are vaguely and imprecisely stated.",
@@ -207,8 +207,8 @@ const exhibitCriteria1 = {
 const exhibitCriteria2 = {
     1: "Links between the objects and the selected IA prompt are made, but these are minimal and tenuous; additionally, it is not clear what the student is trying to convey.",
     2: "Links between the objects and the selected IA prompt are made, but these are minimal and tenuous; additionally, it is not clear what the student is trying to convey.",
-    3: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused.",
-    4: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused.",
+    3: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused. For example, []",
+    4: "Basic links between the objects and the selected IA prompt are made, but the explanation of these links is unconvincing and a bit unfocused. For example, []",
     5: "There is some explanation of the links between the three objects and the selected IA prompt.",
     6: "There is some explanation of the links between the three objects and the selected IA prompt.",
     7: "Links between each of the three objects and the selected IA prompt are explained, although this explanation may lack precision and clarity in parts (such as).",
