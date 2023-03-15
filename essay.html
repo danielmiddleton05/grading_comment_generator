@@ -280,7 +280,6 @@
             <div class="col-12 align-self-center">
                 <h2>How would you rate the following essay?</h2>
                 <p>First, hit the 'Score' button to see the raw score.</p>
-                <p id="averageOutput"></p>
             </div>
         </div>
         <div class="row align-items-center">
@@ -301,9 +300,13 @@
             </div>
         </div>
         <div class="row">
+            <div class="col">
+                <p id="averageOutput"></p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-4 align-self-center">
-                <button id="calAvg" type="button" class="btn-hover color-2 btn-lg"
-                    onclick="calculateAverage()">Score</button>
+                <button id="calAvg" type="button" class="btn-hover color-2 btn-lg" onclick="calculateAverage()">Score</button>
             </div>
             <div class="col mb-4 align-self-center">
                 <input type="number" id="userInput" min="1" max="10">

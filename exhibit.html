@@ -206,7 +206,6 @@
             <div class="col-12 align-self-center">
                 <h2>How well does the exhibition successfully show how TOK manifests in the world around us?</h2>
                 <p>First, hit the 'Score' button to see the raw score.</p>
-                <p id="averageExhibitOutput"></p>
             </div>
         </div>
         <div class="row align-items-center">
@@ -227,9 +226,13 @@
             </div>
         </div>
         <div class="row">
+            <div class="col">
+                <p id="averageExhibitOutput"></p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-4 align-self-center">
-                <button id="calAvg" type="button" class="btn-hover color-2 btn-lg"
-                    onclick="calculateExhibitAverage()">Score</button>
+                <button id="calAvg" type="button" class="btn-hover color-2 btn-lg" onclick="calculateExhibitAverage()">Score</button>
             </div>
             <div class="col mb-4 align-self-center">
                 <input type="number" id="userExhibitInput" min="1" max="10">
