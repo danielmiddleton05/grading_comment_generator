@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     position: relative;
@@ -35,6 +41,10 @@ footer {
     color: #FAFAFA;
 }
 
+.myShadow {
+    filter: drop-shadow(3px 3px 6px rgba(112, 116, 123, 0.75));
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
@@ -51,6 +61,47 @@ footer {
 #resetButton1 {
     background-color: #FF7E67;
     border: #FF7E67;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+  
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #29323c, #485563, #A2D5F2, #07689F);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #FF7E67, #FF7E67, #A2D5F2, #07689F);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 /*----------BORDERS------------
