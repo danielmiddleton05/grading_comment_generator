@@ -28,11 +28,27 @@ header h2 {
   }
 
 footer {
-    background-image: linear-gradient(#A2D5F2, #A2D5F2);
     padding: 20px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: #5a5e60;
+}
+
+a {
+  color: #5a5e60;
+}
+
+a:hover {
+  color: #FF7E67;
+}
+
+footer a {
+  padding-right: 5em;
+}
+
+footer p {
+  padding-top: 1em;
 }
 
 .jumbotron {
