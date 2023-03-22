@@ -92,10 +92,10 @@ const criteria6 = {
     4: "The student does not address the implications of their arguments. Overall, the essay is ",
     5: "The student does not address the implications of their arguments. Overall, the essay is ",
     6: "The student does not address the implications of their arguments. Overall, the essay is ",
-    7: "The student attempts to identify the implications.",
-    8: "The student attempts to identify the implications.",
-    9: "The student does a good job identifying the implications of the arguments are considered",
-    10: "The student does a good job identifying the implications of the arguments are considered",
+    7: "The student attempts to identify the implications. Overall, the essay is ",
+    8: "The student attempts to identify the implications. Overall, the essay is ",
+    9: "The student does a good job identifying the implications of the arguments are considered. Overall, the essay is ",
+    10: "The student does a good job identifying the implications of the arguments are considered. Overall, the essay is ",
 };
 
 function showText() {
